@@ -4,7 +4,7 @@
 
 ## 1. 서비스 링크
 
-### http://shopping-demo.elicecoding.com/
+### http://kdt-sw2-seoul-team11.elicecoding.com/
 
 <br />
 
