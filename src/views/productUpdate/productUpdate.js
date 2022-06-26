@@ -52,7 +52,6 @@ const rendering = async function () {
     if (file) {
       currentImageInput.src = URL.createObjectURL(file);
       currentImage = currentBook.image;
-      console.log(666666, currentImage);
     }
   }
 

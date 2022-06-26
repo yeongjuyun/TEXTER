@@ -7,8 +7,8 @@ const axios = require("axios");
 const bookApiRouter = Router();
 
 bookApiRouter.get("/search/book", async function (req, res, next) {
-  const client_id = "sZb2e1539UXggkNGdX3u";
-  const client_secret = "IuP37E2TRY";
+  const client_id = process.env.CLIENT_ID;
+  const client_secret = process.env.CLIENT_SECRET;
   try {
     const xml = await axios({
       url:
